@@ -1,0 +1,22 @@
+{
+  "name": "emdad_safe_frontend_rtl",
+  "version": "1.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next-sitemap",
+    "start": "next start -p 3000",
+    "lint": "echo 'lint skipped'"
+  },
+  "dependencies": {
+    "next": "latest",
+    "next-sitemap": "^4.2.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.11",
+    "@types/react": "18.3.3",
+    "typescript": "5.4.5"
+  }
+}

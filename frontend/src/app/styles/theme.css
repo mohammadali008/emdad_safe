@@ -1,0 +1,16 @@
+:root{
+  --brand-primary:#E42217;   /* قرمز داغ */
+  --brand-secondary:#FF6A00; /* نارنجی */
+  --brand-amber:#FFB703;     /* کهربایی */
+  --ink:#0f1113;             /* متن */
+  --muted:#6c757d;
+  --radius:16px;
+  --shadow-sm:0 8px 20px rgba(0,0,0,.06);
+  --shadow-md:0 12px 32px rgba(0,0,0,.10);
+  --grad-hot: linear-gradient(90deg,var(--brand-primary), var(--brand-secondary));
+  --footer-bg: #1a1a1a;       /* تیره مدرن */
+}
+.btn-primary{ background:var(--grad-hot); border:none; border-radius:999px; box-shadow:0 10px 28px rgba(228,34,23,.25); transition:transform .15s ease, filter .15s ease; }
+.btn-primary:hover{ transform:translateY(-1px); filter:saturate(1.05); }
+.section{ padding:56px 0; }
+.card{ border-radius:var(--radius); box-shadow:var(--shadow-sm); border:none; }
